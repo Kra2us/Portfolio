@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Monoton&display=swap');
+
+
+/* Override default rules */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(../Img/wallpaper_alena_velichko.jpg);
+    width: 100%;
+    opacity: inherit;
+}
+
+.navHaut {
+    height: 200px;
+    width: 100vw;
+    
+    background-image: url('../img/reseau-web.jpg');
+    background-repeat: no-repeat;
+    background-position: 0% 30%;
+    background-size: cover;
+}
+.navBas {
+    height: 100px;
+    width: 100vw;
+    
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: 0% 69%;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Bungee Spice', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+.ulHaut {
+    font-family: 'Bungee Spice', cursive;
+    font-size: large;
+    height: 100%;
+    padding: 70px;
+
+    /* delete les puce d'une liste */
+    list-style: none;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.ulBas {
+    font-family: 'Bungee Spice', cursive;
+    font-size: large;
+    height: 100%;
+    padding: 70px;
+
+    /* delete les puce d'une liste */
+    list-style: none;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section {
+   
+    color: rgb(252, 252, 252);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    color: yellow;
+    background-color: yellowgreen;
+}
+
+.shadow-parag {
+    text-shadow: 4px 4px 4px;
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    
+    text-align: center;
+    line-height: 3em;
+    text-decoration: underline;
+
+}
+
+.moi {
+    text-align: center;
+    line-height: 1.5em;
+}
+.parcours{
+    text-align:center;
+}
+.retour{
+    color: aliceblue;
+    background-color: aliceblue;
+    text-align: center;
+}
+aside{
+    text-align:end;
+}
+.menu{
+    display: none;
+}
