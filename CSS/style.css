@@ -19,16 +19,17 @@ body {
 .navHaut {
     height: 200px;
     width: 100vw;
-    
+
     background-image: url('../img/reseau-web.jpg');
     background-repeat: no-repeat;
     background-position: 0% 30%;
     background-size: cover;
 }
+
 .navBas {
     height: 100px;
     width: 100vw;
-    
+
     background-color: black;
     background-repeat: no-repeat;
     background-position: 0% 69%;
@@ -56,6 +57,7 @@ h1 {
     justify-content: space-evenly;
     align-items: flex-end;
 }
+
 .ulBas {
     font-family: 'Bungee Spice', cursive;
     font-size: large;
@@ -74,17 +76,22 @@ h1 {
 
 
 section {
-   
+
     color: rgb(252, 252, 252);
 }
 
 footer {
+    background: #ccc;
+
     position: absolute;
+
     bottom: 0;
-    margin: 0;
-    padding: 0;
-    color: yellow;
-    background-color: yellowgreen;
+
+    width: 100%;
+
+    padding-top: 50px;
+
+    height: 50px;
 }
 
 .shadow-parag {
@@ -96,7 +103,7 @@ section {
 }
 
 h2 {
-    
+
     text-align: center;
     line-height: 3em;
     text-decoration: underline;
@@ -107,11 +114,15 @@ h2 {
     text-align: center;
     line-height: 1.5em;
 }
-.parcours{
-    text-align:center;
+
+.parcours {
+    text-align: center;
 }
-.retour{
+
+.retour {
     color: aliceblue;
     background-color: aliceblue;
     text-align: center;
 }
+
+.Presentation {}
