@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Monoton&family=Nabla&family=Silkscreen&display=swap');
 
 
 /* Override default rules */
@@ -17,6 +17,7 @@ body {
     padding: 0;
     margin: 0;
     background-image: url(../Img/wallpaper_alena_velichko.jpg);
+    background-position: 0% -141%;
     width: 100%;
     opacity: inherit;
 }
@@ -29,6 +30,7 @@ body {
     background-repeat: no-repeat;
     background-position: 0% 30%;
     background-size: cover;
+    border-bottom: solid rebeccapurple 6px ;
 }
 
 h1 {
@@ -58,26 +60,27 @@ main {
     margin: 0 auto;
 
     position: relative;
-    background-color: lightslategray;
-    border: 6px solid rebeccapurple;
+
 }
 
 section {
-
+    font-size: 1.3em;
     color: rgb(252, 252, 252);
 }
 
 h2 {
-
+    
+    font-family: 'Nabla', cursive;
     text-align: center;
     line-height: 3em;
-    text-decoration: underline;
+    text-decoration: underline rgb(252, 202, 64);
 
 }
 
 .moi {
-    text-align: center;
+    text-align: justify;
     line-height: 1.5em;
+    padding: 30px;
 }
 
 .parcours {
@@ -85,8 +88,11 @@ h2 {
 }
 
 .retour {
-    font-family: 'Bungee Spice', cursive;
+    font-family: 'Nabla', cursive;
     text-align: center;
+    font-size: x-large;
+    
+  
 }
 
 .navBas {
