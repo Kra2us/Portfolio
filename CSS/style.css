@@ -8,12 +8,29 @@
     box-sizing: border-box;
 }
 
+body,
+html {
+    height: 100%;
+}
+
 body {
     padding: 0;
     margin: 0;
     background-image: url(../Img/wallpaper_alena_velichko.jpg);
     width: 100%;
     opacity: inherit;
+}
+
+main {
+    max-width: 1280px;
+
+    min-height: 100%;
+
+    margin: 0 auto;
+
+    position: relative;
+    background-color: lightslategray;
+    border: 6px solid rebeccapurple;
 }
 
 .navHaut {
@@ -47,14 +64,11 @@ h1 {
     font-size: large;
     height: 100%;
     padding: 70px;
-
     /* delete les puce d'une liste */
     list-style: none;
-
-
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: flex-end;
 }
 
@@ -62,15 +76,11 @@ h1 {
     font-family: 'Bungee Spice', cursive;
     font-size: large;
     height: 100%;
-    padding: 70px;
-
     /* delete les puce d'une liste */
     list-style: none;
-
-
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
 }
 
@@ -82,24 +92,9 @@ section {
 
 footer {
     background: #ccc;
-
-    position: absolute;
-
     bottom: 0;
-
     width: 100%;
-
-    padding-top: 50px;
-
-    height: 50px;
-}
-
-.shadow-parag {
-    text-shadow: 4px 4px 4px;
-}
-
-section {
-    margin: 20px;
+    border: solid 6px rebeccapurple;
 }
 
 h2 {
@@ -120,8 +115,7 @@ h2 {
 }
 
 .retour {
-    color: aliceblue;
-    background-color: aliceblue;
+    font-family: 'Bungee Spice', cursive ;
     text-align: center;
 }
 
