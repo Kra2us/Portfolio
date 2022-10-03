@@ -21,18 +21,6 @@ body {
     opacity: inherit;
 }
 
-main {
-    max-width: 1280px;
-
-    min-height: 100%;
-
-    margin: 0 auto;
-
-    position: relative;
-    background-color: lightslategray;
-    border: 6px solid rebeccapurple;
-}
-
 .navHaut {
     height: 200px;
     width: 100vw;
@@ -40,16 +28,6 @@ main {
     background-image: url('../img/reseau-web.jpg');
     background-repeat: no-repeat;
     background-position: 0% 30%;
-    background-size: cover;
-}
-
-.navBas {
-    height: 100px;
-    width: 100vw;
-
-    background-color: black;
-    background-repeat: no-repeat;
-    background-position: 0% 69%;
     background-size: cover;
 }
 
@@ -72,29 +50,21 @@ h1 {
     align-items: flex-end;
 }
 
-.ulBas {
-    font-family: 'Bungee Spice', cursive;
-    font-size: large;
-    height: 100%;
-    /* delete les puce d'une liste */
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    align-items: center;
-}
+main {
+    max-width: 1280px;
 
+    min-height: 100%;
+
+    margin: 0 auto;
+
+    position: relative;
+    background-color: lightslategray;
+    border: 6px solid rebeccapurple;
+}
 
 section {
 
     color: rgb(252, 252, 252);
-}
-
-footer {
-    background: #ccc;
-    bottom: 0;
-    width: 100%;
-    border: solid 6px rebeccapurple;
 }
 
 h2 {
@@ -115,8 +85,35 @@ h2 {
 }
 
 .retour {
-    font-family: 'Bungee Spice', cursive ;
+    font-family: 'Bungee Spice', cursive;
     text-align: center;
 }
 
-.Presentation {}
+.navBas {
+    height: 100px;
+    width: 100vw;
+
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: 0% 69%;
+    background-size: cover;
+}
+
+.ulBas {
+    font-family: 'Bungee Spice', cursive;
+    font-size: large;
+    height: 100%;
+    /* delete les puce d'une liste */
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    background: #ccc;
+    bottom: 0;
+    width: 100%;
+    border-top: solid 6px rebeccapurple;
+}
