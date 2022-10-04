@@ -17,15 +17,17 @@ body {
     margin: 0;
     width: 100%;
     opacity: inherit;
-    background-color: #0A2611;
+    background-image: url(../Img/488634-dark-abstract.jpg);
+    background-position: 0% -46%;
+
 }
 
 .navHaut {
     height: 100px;
     width: 100vw;
-    background-image: url('../img/103797475-digital-data-and-green-network-connection-lines-for-technology-concept-on-black-background-3d-abstra.webp');
+    background-image: url('../img/desktop-source-code-and-wallpaper-by-coding-and-programming-free-photo.jpg');
     background-repeat: no-repeat;
-    background-position: 0% 30%;
+    background-position: 0% 98%;
     background-size: cover;
     box-shadow: #b3f40f 0px 0px 10px;
 }
@@ -60,6 +62,7 @@ main {
 section {
     font-size: 1.3em;
     color: #9CA69D;
+    background-color: 0A2611;
 }
 
 h2 {
@@ -68,6 +71,16 @@ h2 {
     color: #225935;
     line-height: 3em;
     text-decoration: underline #014023;
+}
+
+.BoxPrésentation {
+    display: block;
+    width: 50%;
+}
+
+.BoxParcours {
+    display: block;
+    width: 50%;
 }
 
 .moi {
@@ -92,7 +105,6 @@ h2 {
 .navBas {
     height: 100px;
     width: 100vw;
-
     background-color: black;
     background-repeat: no-repeat;
     background-position: 0% 69%;
