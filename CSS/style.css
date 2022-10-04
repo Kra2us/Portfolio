@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Monoton&family=Nabla&family=Silkscreen&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Chakra+Petch&family=Monoton&family=Nabla&family=Silkscreen&display=swap');
 
 /* Override default rules */
 * {
@@ -16,25 +15,25 @@ html {
 body {
     padding: 0;
     margin: 0;
-    background-image: url(../Img/wallpaper_alena_velichko.jpg);
-    background-position: 0% -141%;
     width: 100%;
     opacity: inherit;
+    background-color: #0A2611;
 }
 
 .navHaut {
-    height: 200px;
+    height: 100px;
     width: 100vw;
-
-    background-image: url('../img/reseau-web.jpg');
+    background-image: url('../img/103797475-digital-data-and-green-network-connection-lines-for-technology-concept-on-black-background-3d-abstra.webp');
     background-repeat: no-repeat;
     background-position: 0% 30%;
     background-size: cover;
-    border-bottom: solid rebeccapurple 6px ;
+    box-shadow: #b3f40f 0px 0px 10px;
 }
 
 h1 {
-    font-family: 'Bungee Spice', cursive;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #2D7345;
+    text-decoration: underline #2D7345;
     text-align: center;
     font-size: 50px;
 }
@@ -43,38 +42,32 @@ h1 {
     font-family: 'Bungee Spice', cursive;
     font-size: large;
     height: 100%;
-    padding: 70px;
     /* delete les puce d'une liste */
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
 }
 
 main {
     max-width: 1280px;
-
     min-height: 100%;
-
     margin: 0 auto;
-
     position: relative;
-
 }
 
 section {
     font-size: 1.3em;
-    color: rgb(252, 252, 252);
+    color: #9CA69D;
 }
 
 h2 {
-    
-    font-family: 'Nabla', cursive;
+    font-family: 'Chakra Petch', sans-serif;
     text-align: center;
+    color: #225935;
     line-height: 3em;
-    text-decoration: underline rgb(252, 202, 64);
-
+    text-decoration: underline #014023;
 }
 
 .moi {
@@ -88,11 +81,12 @@ h2 {
 }
 
 .retour {
-    font-family: 'Nabla', cursive;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #02734A;
     text-align: center;
     font-size: x-large;
-    
-  
+
+
 }
 
 .navBas {
@@ -118,8 +112,7 @@ h2 {
 }
 
 footer {
-    background: #ccc;
     bottom: 0;
     width: 100%;
-    border-top: solid 6px rebeccapurple;
+    box-shadow: #b3f40f 0px 0px 10px;
 }
