@@ -21,6 +21,9 @@ body {
     background-position: 0% -46%;
 
 }
+a:link {
+    text-decoration: none;
+}
 
 .navHaut {
     height: 100px;
