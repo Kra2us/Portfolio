@@ -27,23 +27,50 @@
         </ul>
     </nav>
     <br>
-    <br>
-    <header>
-        <h1 id="Haut-de-page">Contact</h1>
-    </header>
-    <br>
-    <br>
-    <main>
-      
+    <main class="main-contact">
+        <div class="contactez-moi">
+            <h1>Contactez moi</h1>
+            <p>Un problème, une question, un projet ? N’hésitez pas à utiliser ce
+                formulaire pour prendre contact avec moi !</p>
+            <form action="/page-traitement-donnees" method="post">
+                <div>
+                    <label for="nom">Votre nom</label>
 
+                    <input type="text" id="nom" name="nom" placeholder="Martin" required>
+                </div>
+                <div>
+                    <label for="email">Votre e-mail</label>
+
+                    <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+                </div>
+                <div>
+                    <label for="sujet">Quel est le sujet de votre message ?</label>
+
+                    <select name="sujet" id="sujet" required>
+                        <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+                        <option value="probleme-compte">Projet à proposer</option>
+                        <option value="suivi-commande">Projet en cour</option>
+                        <option value="question-produit">Question SAV</option>
+                        <option value="autre">Autre...</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message">Votre message</label>
+
+                    <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...."
+                        required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Envoyer mon message</button>
+                </div>
+            </form>
+        </div>
         <div class="retour">
             <a href="#Haut-de-page">
-                <img src="/Img/Haut de page.png" 
-                alt="Haut de page"
-                width="50"
-                height="50"></a>
+                <img src="/Img/Haut de page.png" alt="Haut de page" width="50" height="50"></a>
         </div>
     </main>
+    <br>
     <footer>
         <nav class="navBas">
             <ul class="ulBas">
